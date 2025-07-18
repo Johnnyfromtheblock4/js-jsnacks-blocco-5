@@ -7,7 +7,7 @@ const people = [
 const nameForEach = [];
 
 people.forEach((elem) => {
-  nameForEach.push(`${elem.name}`);
+  console.log(elem.name);
 });
 
 console.log(nameForEach);

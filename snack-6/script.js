@@ -15,6 +15,7 @@ const shortZucchine = zucchine.filter((zucchina) => {
   if (zucchina.length < 15) {
     return true;
   }
+  // return zucchina.length < 15; //short version
 });
 
 console.log(shortZucchine);
@@ -23,6 +24,7 @@ const longZucchine = zucchine.filter((zucchina) => {
   if (zucchina.length > 15) {
     return true;
   }
+  // return zucchina.length > 15; //short version
 });
 
 console.log(longZucchine);
